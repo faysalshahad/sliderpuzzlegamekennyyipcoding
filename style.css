@@ -1,0 +1,31 @@
+body{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: darkblue;
+}
+
+#title{
+    width: 25rem;
+    height: 10rem;
+}
+
+#board{
+    width: 23rem;
+    height: 23rem;
+    background-color: cadetblue;
+    border: 0.7rem solid indigo;
+
+    /*Margin auto 0% will center the board and display flex and flex wrap
+    will ensure that the each of the tiles will go from left to right instead
+    of vertically stacking up on each other.*/
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#board img{
+    width: 7.5rem;
+    height: 7.5rem;
+    border: 1px solid indigo;
+}
